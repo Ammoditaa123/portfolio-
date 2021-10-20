@@ -1,0 +1,40 @@
+.menu {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.things {
+  background-color: rgb(139, 238, 228);
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  font-family: sans-serif;
+}
+
+.things img {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
+.languages {
+  background-color: rgb(139, 238, 228);
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  font-family: sans-serif;
+}
+
+p,h1,h2{
+  text-align: center;
+}
+
